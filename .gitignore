@@ -1,0 +1,10 @@
+# Node
+node_modules/
+.env
+.env.local
+
+# Build do Vue
+dist/
+
+# Logs
+npm-debug.log*
