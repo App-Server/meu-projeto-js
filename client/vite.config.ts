@@ -7,7 +7,7 @@ export default defineConfig({
     proxy: {
       // Toda requisição para /api será redirecionada para o Node
       '/api': {
-        target: 'http://localhost:3000',
+        target: 'http://localhost:80',
         changeOrigin: true,
         // Remove o prefixo /api antes de enviar ao servidor se necessário
         // rewrite: (path) => path.replace(/^\/api/, '') 

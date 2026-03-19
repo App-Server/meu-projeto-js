@@ -12,7 +12,7 @@ const buscarDados = async () => {
   } catch (error) {
     mensagem.value = "Erro ao conectar!"
   }
-}
+} 
 
 onMounted(buscarDados)
 </script>

@@ -10,4 +10,4 @@ app.get('/api/dados', (req, res) => {
   res.json({ mensagem: "Conectado ao Backend!" });
 });
 
-app.listen(3000, () => console.log("API rodando na porta 3000"));
+app.listen(3000, () => console.log("API rodando na porta 80"));
